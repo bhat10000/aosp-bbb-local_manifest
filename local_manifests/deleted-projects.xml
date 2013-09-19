@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remove device projects  -->
+<remove-project name="device/asus/deb" />
+<remove-project name="device/asus/flo" />
+<remove-project name="device/asus/flo-kernel" />
+<remove-project name="device/asus/tilapia" />
+<remove-project name="device/generic/armv7-a-neon" />
+<remove-project name="device/generic/common" />
+<remove-project name="device/generic/goldfish" />
+<remove-project name="device/generic/mips" />
+<remove-project name="device/generic/mini-emulator-mips" />
+<remove-project name="device/generic/mini-emulator-x86" />
+<remove-project name="device/generic/x86" />
+<remove-project name="device/google/accessory/arduino" />
+<remove-project name="device/google/accessory/demokit" />
+<remove-project name="device/lge/mako" />
+<remove-project name="device/lge/mako-kernel" />
+<remove-project name="device/samsung/maguro" />
+<remove-project name="device/samsung/manta" />
+<remove-project name="device/samsung/toro" />
+<remove-project name="device/samsung/toroplus" />
+<remove-project name="device/samsung/tuna" />
+<remove-project name="device/samsung_slsi/arndale" />
+<remove-project name="device/ti/panda" />
+
+<!-- Remove AOSP website source -->
+<remove-project name="platform/docs/source.android.com" />
+
+<!-- Remove SoC/HAL projects -->
+<remove-project name="platform/hardware/akm" />
+<remove-project name="platform/hardware/broadcom/libbt" />
+<remove-project name="platform/hardware/broadcom/wlan" />
+<remove-project name="platform/hardware/invensense" />
+<remove-project name="platform/hardware/msm7k" />
+<remove-project name="platform/hardware/qcom/audio" />
+<remove-project name="platform/hardware/qcom/bt" />
+<remove-project name="platform/hardware/qcom/display" />
+<remove-project name="platform/hardware/qcom/keymaster" />
+<remove-project name="platform/hardware/qcom/media" />
+<remove-project name="platform/hardware/qcom/msm8960" />
+<remove-project name="platform/hardware/qcom/power" />
+<remove-project name="platform/hardware/qcom/sensors" />
+<remove-project name="platform/hardware/qcom/wlan" />
+<remove-project name="platform/hardware/samsung_slsi/exynos5" />
+<remove-project name="platform/hardware/ti/omap3" />
+<remove-project name="platform/hardware/ti/omap4xxx" />
+<remove-project name="platform/hardware/ti/wlan" />
+<remove-project name="platform/hardware/ti/wpan" />
+
+<!-- Remove darwin projects  -->
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+
+</manifest>
