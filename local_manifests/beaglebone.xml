@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rowboat"
+           fetch="git://gitorious.org/rowboat/" />
+
+<!-- Add Beaglebone/black device project -->
+<project path="device/ti/beaglebone" name="vishveshwars-beaglebone" remote="rowboat" revision="aosp-master" />
+
+</manifest>
