@@ -17,13 +17,9 @@
 <remove-project name="device/google/accessory/demokit" />
 <remove-project name="device/lge/mako" />
 <remove-project name="device/lge/mako-kernel" />
-<remove-project name="device/samsung/maguro" />
+<remove-project name="device/lge/hammerhead" />
+<remove-project name="device/lge/hammerhead-kernel" />
 <remove-project name="device/samsung/manta" />
-<remove-project name="device/samsung/toro" />
-<remove-project name="device/samsung/toroplus" />
-<remove-project name="device/samsung/tuna" />
-<remove-project name="device/samsung_slsi/arndale" />
-<remove-project name="device/ti/panda" />
 
 <!-- Remove AOSP website source -->
 <remove-project name="platform/docs/source.android.com" />
@@ -33,13 +29,14 @@
 <remove-project name="platform/hardware/broadcom/libbt" />
 <remove-project name="platform/hardware/broadcom/wlan" />
 <remove-project name="platform/hardware/invensense" />
-<remove-project name="platform/hardware/msm7k" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/bt" />
+<remove-project name="platform/hardware/qcom/camera" />
 <remove-project name="platform/hardware/qcom/display" />
 <remove-project name="platform/hardware/qcom/keymaster" />
 <remove-project name="platform/hardware/qcom/media" />
 <remove-project name="platform/hardware/qcom/msm8960" />
+<remove-project name="platform/hardware/qcom/msm8x74" />
 <remove-project name="platform/hardware/qcom/power" />
 <remove-project name="platform/hardware/qcom/sensors" />
 <remove-project name="platform/hardware/qcom/wlan" />
@@ -52,6 +49,10 @@
 <!-- Remove darwin projects  -->
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
@@ -62,5 +63,6 @@
 <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
-
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 </manifest>
